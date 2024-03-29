@@ -19,6 +19,6 @@ namespace ex001
             Console.Write("This is the ");
             Console.Write("second line.");
 
-        }
+            Console.ReadKey();
     }
 }

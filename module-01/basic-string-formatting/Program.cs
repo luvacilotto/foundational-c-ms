@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ex03
+namespace basic_string_formatting
 {
     internal class Program
     {
@@ -78,7 +78,7 @@ namespace ex03
             //string projectName = "First-Project";
             //Console.WriteLine($@"C:\Output\{projectName}\Data");
 
-            // Desafio
+            ////// Desafio //////
             string projectName = "ACME";
             string englishLocation = $@"c:\Exercise\{projectName}\data.txt";
             Console.WriteLine($"View English output:\n\t\t{englishLocation}\n");
